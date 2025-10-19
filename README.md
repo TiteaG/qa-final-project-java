@@ -14,12 +14,12 @@ Testul definit verifică un endpoint API:
 
 https://jsonplaceholder.typicode.com/todos/1  
 
-Răspunsul trebuie să aibă status *200* și să conțină un câmp `"title"`.
+Răspunsul trebuie să aibă status *200* și să conțină un câmp *title*.
 
 
 Pentru a rula testele locale:
-Asigură-te că ai instalat Maven și Java 17
-În terminal (în folderul proiectului), rulează:   
+Trebuie sa ne asiguram ca avem instalat Maven și Java 17
+În terminal (în folderul proiectului), rulăm:
    mvn test
 
 Pentru crearea unei imagini:
