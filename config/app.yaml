@@ -1,0 +1,6 @@
+env: "development"
+service:
+  baseUrl: "https://jsonplaceholder.typicode.com"
+timeouts:
+  request: 5000
+  response: 10000

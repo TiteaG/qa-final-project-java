@@ -1,0 +1,9 @@
+1. Deschide conexiune HTTP către https://jsonplaceholder.typicode.com/todos/1
+2. Trimite un request GET
+3. Primește răspunsul de la server
+4. Verifică că răspunsul are codul de status 200
+5. Daca statusul nu este egal cu 200, marchează testul ca eșuat
+6. Verifică că răspunsul conține cheia "title"
+7. Daca răspunsul nu conține cheia "title, marchează testul ca eșuat
+8. Închide conexiunea
+9. Marchează testul ca trecut daca toate verificările sunt îndeplinite
