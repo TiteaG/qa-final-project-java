@@ -19,8 +19,7 @@ Răspunsul trebuie să aibă status *200* și să conțină un câmp `"title"`.
 
 Pentru a rula testele locale:
 Asigură-te că ai instalat Maven și Java 17
-În terminal (în folderul proiectului), rulează:
-   ```bash
+În terminal (în folderul proiectului), rulează:   
    mvn test
 
 Pentru crearea unei imagini:
